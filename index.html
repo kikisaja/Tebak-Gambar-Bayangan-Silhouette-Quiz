@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silhouette Quiz 👥</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-card">
+        <!-- Header -->
+        <header class="app-header">
+            <span class="badge">kikisaja No. 125</span>
+            <h1>👥 SILHOUETTE QUIZ</h1>
+            <p>Tebak objek asli dibalik bayangan siluet hitamnya!</p>
+        </header>
+
+        <!-- Status Panel -->
+        <div class="stats-panel">
+            <div class="stat-box">
+                <span class="stat-label">Soal</span>
+                <strong id="question-number">1 / 5</strong>
+            </div>
+            <div class="stat-box score">
+                <span class="stat-label">Skor</span>
+                <strong id="score-display">0</strong>
+            </div>
+        </div>
+
+        <!-- Siluet Gambar Box -->
+        <div class="silhouette-arena">
+            <div class="image-wrapper" id="image-wrapper">
+                <img id="quiz-image" src="" alt="Siluet Objek">
+            </div>
+        </div>
+
+        <!-- Pilihan Ganda -->
+        <div class="options-grid" id="options-grid">
+            <!-- Di-generate otomatis lewat JavaScript -->
+        </div>
+
+        <!-- Tombol Lanjut -->
+        <button type="button" id="btn-next" class="btn-next hidden">➡️ LANJUT SOAL BERIKUTNYA</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
